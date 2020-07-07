@@ -14,6 +14,7 @@ just mofdify the command section of the service **react_project** in the **docke
 
 Runs the app in the development mode.
 The ports are maped in the **docker-compose.yaml file**
+(3001:3000) visit `localhost:3001` int the host, to see the app
 
 
 ### `npm test`
