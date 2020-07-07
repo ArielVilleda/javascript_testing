@@ -1,16 +1,19 @@
-## React base project Dockerized
+## React CLEAN base project Dockerized
 
 This reposotory is based in: https://github.com/pharzan/empty-react-project.git
 
-The prpouse of this project is for start an aplication in react,  
-the **docker-compose** file execs, automatically, the **npm start** command that is in package.json 
+The purpose of this project is start an aplication in react.
+You need to create your own **docker-compose.yaml**  in ./docker folder (example provided), then
+only exec `docker-compose up`, in the docker folder path, to start the develop's deployment.
+The **docker-compose** file execs, automatically, the **npm start** command that is in package.json 
 
-you can execute other react-script commands that are in the **package.json** file:
+You can execute other react-script commands that are in the **package.json** file,
+just mofdify the command section of the service **react_project** in the **docker-compose.yaml file**:
 
 ### `npm start`
 
 Runs the app in the development mode.
-The ports are maped in the docker-compose file
+The ports are maped in the **docker-compose.yaml file**
 
 
 ### `npm test`
