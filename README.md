@@ -1,3 +1,9 @@
+## Docker Development
+In the `./docker` folder you can use some commands like:
+- `docker-compose buid --no-cache`
+- `docker-compose up` (__NOTE__: the mapped port of host machine is localhost:3001 (see `docker-compose.yaml` file))
+- `docker-compose exec react_project /bin/sh`
+
 ## React CLEAN base project Dockerized
 
 This reposotory is based in: https://github.com/pharzan/empty-react-project.git
