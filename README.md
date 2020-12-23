@@ -1,9 +1,3 @@
-## Docker Development
-In the `./docker` folder you can use some commands like:
-- `docker-compose buid --no-cache`
-- `docker-compose up` (__NOTE__: the mapped port of host machine is localhost:3001 (see `docker-compose.yaml` file))
-- `docker-compose exec react_project /bin/sh`
-
 ## React CLEAN base project Dockerized
 
 This reposotory is based in: https://github.com/pharzan/empty-react-project.git
@@ -15,6 +9,12 @@ The **docker-compose** file execs, automatically, the **npm start** command that
 
 You can execute other react-script commands that are in the **package.json** file,
 just mofdify the command section of the service **react_project** in the **docker-compose.yaml file**:
+
+### Docker Development
+In the `./docker` folder you can use some commands like:
+- `docker-compose build --no-cache`
+- `docker-compose up` (__NOTE__: the mapped port of host machine is localhost:3001 (see `docker-compose.yaml` file))
+- `docker-compose exec react_project /bin/sh`
 
 ### `npm start`
 
